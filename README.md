@@ -10,8 +10,7 @@ SecurityAlert (Log Analytics Alerts Triggered)
 SecurityIncident (Incidents created by Sentinel)
 AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 # Architecture Before Hardening / Security Controls
-![ArchBefore](https://github.com/user-attachments/assets/97b8935d-72d5-4854-a575-627ec0427636)
-
+![ab1](https://github.com/user-attachments/assets/902dcdbf-5596-46da-a502-7cdb9d32dec1)
 # Architecture After Hardening / Security Controls
 ( Add image of layout for reference )
 Below is sample text:
