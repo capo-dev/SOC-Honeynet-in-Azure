@@ -10,7 +10,15 @@ SecurityAlert (Log Analytics Alerts Triggered)
 SecurityIncident (Incidents created by Sentinel)
 AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 # Architecture Before Hardening / Security Controls
-( Add image of layout for reference )
+MySQL:
+<img width="1018" alt="MySQL BEFORE" src="https://github.com/user-attachments/assets/978a4bce-a04a-456e-a750-0b12e3a97246" />
+NSG:
+<img width="1313" alt="Nsg BEFORE" src="https://github.com/user-attachments/assets/22c8dee8-f841-4533-9b6d-ce9f6a69e9ea" />
+Linux SSH:
+<img width="1146" alt="Linux ssh auth BEFORE" src="https://github.com/user-attachments/assets/0083be5d-3f0c-496b-a215-26dce55ac069" />
+Windows RDP:
+<img width="1051" alt="Windows RDP BEFORE" src="https://github.com/user-attachments/assets/c01042a4-7f3f-4174-a9ad-39f1a917de63" />
+
 # Architecture After Hardening / Security Controls
 ( Add image of layout for reference )
 Below is sample text:
