@@ -10,14 +10,7 @@ SecurityAlert (Log Analytics Alerts Triggered)
 SecurityIncident (Incidents created by Sentinel)
 AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 # Architecture Before Hardening / Security Controls
-MySQL:
-<img width="1018" alt="MySQL BEFORE" src="https://github.com/user-attachments/assets/978a4bce-a04a-456e-a750-0b12e3a97246" />
-NSG:
-<img width="1313" alt="Nsg BEFORE" src="https://github.com/user-attachments/assets/22c8dee8-f841-4533-9b6d-ce9f6a69e9ea" />
-Linux SSH:
-<img width="1146" alt="Linux ssh auth BEFORE" src="https://github.com/user-attachments/assets/0083be5d-3f0c-496b-a215-26dce55ac069" />
-Windows RDP:
-<img width="1051" alt="Windows RDP BEFORE" src="https://github.com/user-attachments/assets/c01042a4-7f3f-4174-a9ad-39f1a917de63" />
+![ArchBefore](https://github.com/user-attachments/assets/97b8935d-72d5-4854-a575-627ec0427636)
 
 # Architecture After Hardening / Security Controls
 ( Add image of layout for reference )
@@ -35,7 +28,14 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 # Attack Maps Before Hardening / Security Controls
-( add images from project folder )
+MySQL:
+<img width="1018" alt="MySQL BEFORE" src="https://github.com/user-attachments/assets/978a4bce-a04a-456e-a750-0b12e3a97246" />
+NSG:
+<img width="1313" alt="Nsg BEFORE" src="https://github.com/user-attachments/assets/22c8dee8-f841-4533-9b6d-ce9f6a69e9ea" />
+Linux SSH:
+<img width="1146" alt="Linux ssh auth BEFORE" src="https://github.com/user-attachments/assets/0083be5d-3f0c-496b-a215-26dce55ac069" />
+Windows RDP:
+<img width="1051" alt="Windows RDP BEFORE" src="https://github.com/user-attachments/assets/c01042a4-7f3f-4174-a9ad-39f1a917de63" />
 # Metrics Before Hardening / Security Controls
 The following table shows the metrics we measured in our insecure environment for 24 hours: Start Time 2023-03-15 17:04:29 Stop Time 2023-03-16 17:04:29 (REPLACE WITH CORRECT TIME STAMPS)
 (Fill out table for correct Metrics)
